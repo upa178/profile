@@ -1,0 +1,20 @@
+@mixin title {
+  color: $moji;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 10%;
+}
+
+@mixin width($width) {
+  width: $width;
+  margin: 0 auto;
+  padding-top: 20%;
+}
+
+@mixin form($height) {
+  border: 1px solid $moji;
+  width: 100%;
+  height: $height;
+  border-radius: 5px;
+  padding: 2px 2px;
+}
